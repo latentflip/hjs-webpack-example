@@ -1,0 +1,16 @@
+{
+  "name": "hjs-webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "hjs-dev-server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "domready": "^1.0.7",
+    "hjs-webpack": "^1.2.0"
+  }
+}
